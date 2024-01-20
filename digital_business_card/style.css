@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+.div {
+    background-color: #23252c;
+}
+
+.container {
+    width: 317px;
+    height: 780px;
+    margin: 20px auto;
+    background-color: #1A1B21;
+    position: relative;
+}
+
+.container--info {
+    height: 399px;
+    text-align: center;
+    position: absolute;
+}
+
+.github {
+    color: white;
+    text-decoration: none;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+button {
+    width: 115px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+#linkedin {
+    background-color: #5093e2;
+    color: #ffffff;
+}
+
+.name {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.position {
+    font-size: 12.8px;
+    margin-top: -13px;
+    color: #f3bf99;
+}
+
+.text {
+    font-size: 10.24px;
+    color: #ffffff;
+}
+
+.website {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.container--footer {
+    width: 317px;
+    height: 64px;
+    position: absolute;
+    background-color: #161619;
+    bottom: 0px;
+    color: #918E9B;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container--footer i{
+    font-size: 30px;
+}
+
+.container--description {
+    width: 247px;
+    margin: -5px auto;
+    text-align: left;
+}
+
+.container--description h2 {
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 35px;
+    margin-bottom: -5px;
+}
+
+.social {
+    color: white;
+}
