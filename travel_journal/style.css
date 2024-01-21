@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    font-family: Inter, sans-serif;
+}
+
+.navbar-icon {
+    width: 24px;
+    height: 24px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F55A5A;
+    color: white;
+}
+
+nav > h1 {
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.travel-photo {
+    width: 126px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.card-slot {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    border: none;
+    margin: 10px 20% 10px;
+    background-color: #F8F6F1;
+    border-radius: 15px;
+}
+
+.card-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+.map-logo {
+    width: 7px;
+    height: 9.545px;
+}
+
+.location-text {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 10.24px;
+    text-wrap: nowrap;
+}
+
+a {
+    color: #918E9B;
+    text-wrap: nowrap;
+}
+
+.title {
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+.location {
+    letter-spacing: 1.741px;
+}
+
+.date {
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.description {
+    margin-top: -5px;
+}
+
+@media only screen and (max-width: 625px){
+    * {
+        text-align: center;
+    }
+    
+    .travel-photo {
+        width: 100%;
+        height: auto;
+        margin: 10px auto;
+    }
+    
+    .card-slot {
+        flex-direction: column;
+        margin: 10px 30px 10px;
+    }
+
+    .card-right {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+
+    .map-logo {
+        width: 9px;
+        height: 11.545px;
+    }
+
+    .location-text {
+        display: inline;
+        font-size: 12.24px;
+    }
+
+    a {
+        font-size: 1rem;
+    }
+
+    .title {
+        font-size: 30px;
+        margin-bottom: 8px;
+    }
+
+
+    .description {
+        margin-top: 3px;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .title {
+        font-size: 20px;
+    }
+}
