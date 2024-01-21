@@ -4,6 +4,8 @@ This solo project is a part of Scrimba's Frontend Developer Career Path.
 
 ## Overview
 
+This was my first solo React project after starting to learn React. The goal was to create a static site based on the figma design that was provided.
+
 I started from setting up my files and moved on to plan out components and files. Then I rendered all the HTML with ReactDOM.render() and styled it.
 
 ## Link
